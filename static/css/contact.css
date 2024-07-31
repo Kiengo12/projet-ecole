@@ -1,0 +1,74 @@
+.main{
+ 
+    background-image: url(../assets/background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.formulaire-carte{
+    display: flex;
+    padding: 5% 8% 5% 10%;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+}
+.nom-prenom{
+    display: flex;
+}
+input{
+    width: 60%;
+    border: none;
+    border-bottom: 2px solid orange;
+    outline: none;
+}
+label{
+    opacity: 0.5;
+    padding-top: 5%;
+}
+.nomm{
+    width: 38%;
+    padding-bottom: 0;
+}
+.prenom{
+    width: 36%;
+}
+.email{
+    padding-top: 5%;
+}
+.telephone{
+    padding-top: 5%;
+}
+.disponibilite{
+    padding-top: 5%;
+}
+input[type="submit"]{
+    margin-top: 5%;
+    width: 25%;
+    padding: 2% 5%;
+    border-radius: 50px;
+    background-color: orange;
+    color: white;
+    font-size: 15px;
+    cursor:pointer;
+}
+input[type="submit"]:hover{
+    opacity: 0.8;
+}
+.carte{
+    width: 50%;
+}
+.raisons{
+    padding: 5% 10% 5% 10%;
+    background-color: white;
+    gap: 30%;
+    font-size: 25px;
+}
+ol{
+    display: flex;
+    gap: 3%;
+    color: orange;
+}

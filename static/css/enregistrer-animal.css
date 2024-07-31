@@ -1,0 +1,103 @@
+*{
+    font-family: poppins;
+}
+.main{
+    margin:0;
+    padding: 0;
+    background-color: rgba(0,0,0,0.1);
+    background-image: url(../assets/carte4.jpg) !important;
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.4);
+    background-blend-mode: overlay;
+  /*
+    background-repeat: no-repeat;
+    background-position:center;*/
+    position: relative;
+    justify-content: center;
+}
+button{
+    color: white;
+    color: orange;
+    background: transparent;
+    border: 2px orange solid;
+    padding: 15px 25px 15px 25px;
+    border-radius:30px;
+    font-size: 15px;
+    padding-right: 25px;
+    cursor: pointer;
+    font-weight: bold;
+}
+button :hover{
+    color: white;
+}
+.incolore{
+    background-color: transparent !important;
+}
+.a-propos{
+    padding-top: 5%;
+}
+.gallerie{
+    padding: 5% 10% 5% 10%;
+}
+.gallerie h1{
+    font-size: 70px;
+}
+.gallerie p{
+    font-size: 20px;
+    padding-bottom:5%;
+    line-height: 0;
+}
+.image{
+    width: auto;
+    height: 100%;
+    object-fit: cover;
+}
+.image img{
+    width: 100%;
+    object-fit: cover;
+}
+.image img:hover{
+    scale: 1.2;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.container1{
+    display: flex;
+    width: 100%;
+}
+.container2{
+    display: flex;
+    width: 100%;
+}
+.container3{
+    display: flex;
+    width: 100%;
+}
+.caracteristique{
+    padding: 0 10% 5% 10%;
+}
+.caracteristique h1{
+    font-size: 60px;
+    line-height: 1.1;
+    padding-top: 2%;
+}
+.caracteristique p{
+    font-size: 20px;
+    padding-bottom: 4%;
+}
+table, tr{
+    width: 100%;
+    text-align: center;
+}
+tr{
+    background-color: rgba(0,0,0,0.1);
+}
+td, th{
+    border-top: 1px solid orange;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+td:hover{
+    background-color: orange;
+    cursor: pointer;
+}

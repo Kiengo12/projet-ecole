@@ -1,0 +1,26 @@
+.main{
+ 
+    background-image: url(../assets/bill-wegener-7MD4DR9jbP0-unsplash.jpg);
+    background-repeat: no-repeat;
+}
+.contenu p{
+    font-weight: bold;
+    overflow: hidden;
+}
+.couleur{
+    font-size: 13px;
+    font-weight: inherit;
+    color: gray;
+}
+.contenu a{
+    text-decoration: none;
+    color: orange;
+    font-weight: bold;
+}
+.pourquoi-venir{
+    background-image: url(assets/dmitrii-zhodzishskii-JyN-RZBCwRo-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.9);
+    background-blend-mode: overlay;
+}

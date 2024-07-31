@@ -1,0 +1,57 @@
+footer{
+    padding: 5% 10% 0 10%;
+    background-color: #021F41;
+    color: white;
+}
+.liens-rapide ul li{
+    list-style: none;
+    padding-top: 2%;
+}
+.liens-rapide ul li a{
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+.premier-footer{
+    display: flex;
+}
+.liens-rapide{
+    width: 30%
+}
+.liens-rapide h2{
+    font-size: 30px;
+    color: orange;
+}
+.contact-info span i{
+    color: orange;
+    padding-left: 5px;
+}
+.contact-info{
+    width:40%;
+    padding-left: 10%;
+}
+.reservation{
+    padding-left: 10%;
+}
+.deuxieme-footer{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 5%;
+}
+.deuxieme-footer img{
+    width: 100px;
+}
+hr{
+    margin-top: 5%;
+}
+.contact-info span{
+    display: flex;
+    gap: 5%;
+}
+.contact-info h2{
+    color: orange;
+}
+.reservation h2{
+    color: orange;
+}

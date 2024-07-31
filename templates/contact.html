@@ -1,0 +1,70 @@
+{%extends "index.html"%}
+
+{%block content%}
+<div class="title-page">
+    <h1>Contactez-nous</h1> 
+</div>
+</div>
+
+<div class="formulaire-carte">
+<div class="formulaire">
+    <h2>Veuillez remplir le formulaire</h2>
+    <h1>Vous souhaiter devenir Benevole ? Remplissez le formulaire si dessous</h1>
+    <form>
+        <div class="nom-prenom">
+            <div class="nomm">
+                <label for="nom">Nom</label><br>
+                <input type="text" name="nom" id="nom">
+            </div>
+            <div class="prenom">
+                <label for="prenom">prenom</label><br>
+                <input type="text" name="premom" id="prenom">
+            </div>
+        </div>
+        
+        
+        <div class="email">
+            <label for="email">Email</label><br>
+            <input type="email" name="email" id="email">
+        </div>
+        
+        <div class="telephone">
+            <label for="telephone">telephone</label><br>
+            <input type="tel" name="telephone" id="telephone">
+        </div>
+        
+        <div class="disponibilite">
+            <label for="disponibilite">A partir de quelle date pouvez vous etre disponible</label><br>
+            <input type="date" name="disponibilite" id="disponibilite">
+        </div>
+        
+        <input type="submit" value="Envoyer">
+
+    </form>
+</div>
+<div class="carte">
+   <img src="assets/afric.jpg" alt="africains">
+</div>
+</div>
+
+<div class="raisons">
+<h1>05 raisons de venir en Afrique</h1>
+<ol>
+    <li>Musique et danse</li>
+    <li>Arts visuels</li>
+    <li>Littérature et contes</li>
+    <li>Spiritualité</li>
+    <li>Célébrations et festivals</li>
+</ol>
+</div>
+<div class="newsletter">
+<h2>newsletter</h2>
+<h1>Inscrivez vous et restez a fleur de nos nouveaux contenus</h1>
+<p>Notre mission est de mettre en lumière les trésors culturels et les traditions uniques de chaque région africaine.</p>
+<div class="form">
+    <input type="email" name="email" placeholder="Email">
+    <button type="submit">S'inscrire</button>
+</div>
+</div>
+
+{%endblock%}

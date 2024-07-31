@@ -15,7 +15,7 @@
 from flask import Flask
 from flask import render_template
 from flask import g
-from .database import Database
+from database import Database
 
 app = Flask(__name__, static_url_path="", static_folder="static")
 
@@ -35,6 +35,28 @@ def close_connection(exception):
 
 
 @app.route('/')
-def form():
-    # À remplacer par le contenu de votre choix.
-    return render_template('form.html')
+def accueil():
+    return render_template('accueil.html')
+
+
+@app.route('/enregistrer-animal')
+def enregistrerAnimal():
+    return render_template('enregistrer-animal.html')
+
+
+@app.route('/culture-animal')
+def cultureAnimal():
+    return render_template('culture-animal.html')
+
+
+@app.route('/blog')
+def blog():
+    return render_template('blog.html')
+
+
+@app.route('/contact')
+def contact():
+    return render_template('contact.html')
+
+if __name__ == '__main__':
+    app.run(debug=True)

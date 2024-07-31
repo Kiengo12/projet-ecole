@@ -49,7 +49,7 @@ class Database:
         query = ("select id, nom, espece, race, age, description, "
                  "courriel, adresse, ville, cp from animaux")
         cursor.execute(query)
-        all_data = cursor.fetchall()
+        all_data = cursor.fetchall()  
         return [_build_animal(item) for item in all_data]
 
     def get_animal(self, animal_id):

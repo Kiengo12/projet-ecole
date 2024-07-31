@@ -1,0 +1,335 @@
+*{
+    font-family: poppins;
+    padding:0;
+    margin: 0;
+}
+button a{
+    color: white;
+    text-decoration: none;
+}
+.button-blanc a{
+    color: orange;
+}
+
+
+.main{
+    margin:0;
+    padding: 0;
+    background-image: url(../assets/background.png);
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.6);
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    
+    position: relative;
+    justify-content: center;
+}
+
+.title-page{
+    justify-content: center;
+    padding-top: 8%;
+    padding-bottom: 10%;
+    color: white;
+    line-height:1;
+    text-align: center;
+    
+}
+.title-page h1{
+    font-size: 90px;
+    font-weight: bolder;
+}
+.title-page p{
+    justify-content: center;
+    align-items:center;
+    padding:1% 20% 0 20%;
+    font-size: 20px;
+    line-height: 1.3;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    margin-top: 2%;
+}
+a span{
+    color: white;
+    background: orange;
+    padding: 15px 25px 15px 25px;
+    border-radius:30px;
+    font-size: 15px;
+    padding-right: 25px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 5%;
+}
+
+.main-buttons{
+    margin-top:5%;
+}
+.main-buttons button{
+    color: white;
+    background: orange;
+    padding: 15px 25px 15px 25px;
+    border-radius:30px;
+    font-size: 15px;
+    padding-right: 25px;
+    cursor: pointer;
+    font-weight: bold;
+}
+.main-buttons .incolore{
+    background-color: transparent !important;
+    border: 2px solid orange;
+}
+.main-outils{
+    background-color: rgba(2,31,65,0.9); 
+    display: flex;
+    width:100%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    justify-content:center;
+    gap: 3%;
+    color: white;
+}
+.main-outils .item{
+    width: 15%;
+    text-align: center;
+}
+.item{
+    width: 23%;
+    padding: 2%;
+}
+.item i{
+    padding: 7%;
+    background-color: orange;
+    border-radius: 50%;
+}
+.item:hover{
+    background-color: orange;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.formulaire form{
+    background-color: white;
+    display: flex;
+    gap: 10%;
+    padding: 6%;
+    width: 100%;
+   border-radius: 5px;
+}
+.main-about-us{
+    display: flex;
+    justify-content: space-around;
+    top: 103%;
+    background-color: rgba(0,0,0,0.03);
+    padding-bottom: 5%;
+}
+.main-about-us .formulaire{
+    width: 52%;
+    margin-top: -3%;
+    z-index: 15;
+}
+.image-apropos{
+    width: 30%;
+}
+.image-apropos img{
+    width: 100%;
+    margin-top: 10%;
+    border-radius:15px;
+}
+.formulaire form .nom input, .formulaire form .nom select {
+    border: none;
+    border-bottom: 2px solid orange;
+    font-size: 15px;
+    padding-bottom: 5%;
+    outline: none;
+
+}
+button{
+    color: orange;
+    border: 2px solid orange;
+    background: none;
+    padding: 15px 25px 15px 25px;
+    border-radius:30px;
+    font-size: 15px;
+    cursor: pointer;
+    font-weight: bold; 
+    outline: none;
+}
+.button-envoi input{
+    color: orange;
+    border: 2px solid orange;
+    background: none;
+    padding: 15px 25px 15px 25px;
+    border-radius:30px;
+    font-size: 15px;
+    cursor: pointer;
+    font-weight: bold; 
+    outline: none;
+}
+.formulaire h2{
+    color: orange;
+    font-size: 20px;
+    padding-top: 8%;
+}
+.formulaire h1{
+    font-size: 45px;
+    line-height: 1.1;
+}
+.formulaire p{
+    padding-top: 4%;
+    padding-bottom: 5%;
+}
+.image-apropos .texte{
+    background-color: rgba(2,31,65);
+    width: 80%;
+    color: white;
+}
+.texte h2{
+    text-align: center;
+    font-size: 40px;
+    padding-top: 2%;
+}
+.formulaire button{
+    margin-top: 5%;
+    padding-left:  15%;
+    padding-right: 15%;
+}
+.pourquoi-venir{
+    text-align: center;
+    padding-top: 8%;
+    padding-bottom:8%;
+    color: white;
+    background-color: rgba(0,0,0,0.9);
+    background-image: url(../assets/annie-spratt-SPS796v4KmM-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-blend-mode: overlay;
+}
+.pourquoi-venir h1{
+    font-size: 50px;
+    padding-bottom: 1%;
+}
+.pourquoi-venir p{
+    padding: 0 25% 2% 25%;
+}
+.Lieux-artistique{
+    padding: 10% 15%;
+    background-color: rgba(0,0,0,0.05);
+}
+.Lieux-artistique h1{
+    font-size: 50px;
+}
+.Lieux-artistique h2{
+    color: orange;
+    font-size: 20px;
+    width: 90%;
+}
+.Lieux-artistique p{
+    width: 100%;
+    padding-bottom: 2%;
+    width: 90%;
+}
+.Lieux-artistique button{
+    padding: 1% 7% 1% 7%;
+    background-color: orange;
+    color: white;
+}
+.contenu{
+    padding: 5%;
+  background-color: white;
+}
+.carte img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.cartes-afrique{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5% 0;
+    justify-content: space-around;
+    gap: 1%;
+    
+}
+.carte .image{
+    height: 300px;
+    width: auto;
+}
+.carte:hover{
+    border: 1px solid orange;
+    cursor: pointer;
+}
+.cartes-afrique .carte{
+    width: 30%;
+    height: 40%;
+    margin-bottom: 4%;
+}
+.partenaires{
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    align-items: center;
+}
+.partenaires img{
+    width: 100px;
+    object-fit: cover;
+}
+.partenaires h1{
+    font-size: 45px;
+}
+.newsletter{
+    background-color: rgba(0,0,0,0.04);
+    padding: 8% 20% 8% 18%;
+}
+.newsletter h1{
+    font-size: 55px;
+    line-height: 1.1;
+    width: 79%;
+}
+.newsletter p{
+    width: 50%;
+    padding-bottom: 3%;
+}
+.newsletter .form input{
+    padding: 1.5%;
+    width: 30%;
+    background-color:  transparent;
+    border: 1px solid orange;
+    border-radius: 30px;
+    outline: none;
+}
+
+
+/* form  */
+
+.formulaire-form{
+    display: flex;
+    padding: 5% 10% 5% 10%;
+    form{
+        width: 50%;
+        padding-left:5%;
+        div{
+            padding: 10px;
+            display:flex;
+            flex-direction: column;
+            label{
+                padding: 2px;
+            }
+            input,textarea{
+                border: 1.5px solid orange;
+                padding: 10px;
+                border-radius: 5px;
+                width: 80%;
+                outline: none;
+            }
+        }
+    }
+}
+.image-formulaire-form{
+    width: 40%;
+    background:url(../assets/carte4.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+/* form end */

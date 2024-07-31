@@ -1,0 +1,41 @@
+*{
+    font-family: poppins;
+}
+.main{
+ 
+    background-image: url(../assets/carte7.jpg);
+}
+.pourquoi-venir{
+    background-image: url(../assets/annie-spratt-SPS796v4KmM-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.9);
+    background-blend-mode: overlay;
+}
+.culture{
+    padding-top: 5%;
+}
+video{
+    padding-top: 25%;
+    border-radius: 50px;
+    width: 100%;
+    height: 80%;
+}
+.avantage ul{
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 3%;
+}
+.avantage ul li{
+    list-style: none;
+    font-weight: bold;
+}
+.avantage h1{
+    padding-top: 3%;
+    padding-left: 8%;
+    padding-bottom: 1%;
+}
+.avantage ul li i{
+    color: orange;
+    padding-right:10px;
+}
